@@ -1,0 +1,11 @@
+clc;
+clear all;
+close all;
+N=8;
+n=0:1:N-1;
+x=exp(n);
+subplot(3,3,4);
+stem(n,x );
+xlabel('n');
+ylabel('x(n)');
+title('EXPONENTIAL WAVEFORM');
